@@ -42,9 +42,20 @@
 
             <p>
                 HP : +62 81382087708
-                <br>
-                Email : contact@alifyamudatk.com
             </p>
+
+            <ul class="mt-2">
+                <li>
+                    <a href="mailto:amk@alifyamudatk.com">amk@alifyamudatk.com</a>
+                </li>
+                <li>
+                    <a href="mailto:fadil@alifyamudatk.com">fadil@alifyamudatk.com</a>
+                </li>
+                <li>
+                    <a href="mailto:salesfadil@alifyamudatk.com">salesfadil@alifyamudatk.com</a>
+                </li>
+            </ul>
+            
         </div>
     </div>
 

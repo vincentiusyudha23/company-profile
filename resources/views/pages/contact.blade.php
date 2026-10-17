@@ -80,7 +80,17 @@
                             <h5 class="text-2xl font-bold">Email</h5>
                         </div>
 
-                        <p class="pl-11 font-medium">Email : contact@alifyamudatk.com</p>
+                        <ul class="mt-2 pl-11 font-medium">
+                            <li>
+                                <a href="mailto:amk@alifyamudatk.com">amk@alifyamudatk.com</a>
+                            </li>
+                            <li>
+                                <a href="mailto:fadil@alifyamudatk.com">fadil@alifyamudatk.com</a>
+                            </li>
+                            <li>
+                                <a href="mailto:salesfadil@alifyamudatk.com">salesfadil@alifyamudatk.com</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="mb-4">
                         <div class="flex items-center gap-2 mb-2">
