@@ -43,7 +43,7 @@
             <p>
                 HP : +62 81382087708
                 <br>
-                Email : {{ env('MAIL_FROM_ADDRESS') }}
+                Email : contact@alifyamudatk.com
             </p>
         </div>
     </div>

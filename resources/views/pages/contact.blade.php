@@ -80,7 +80,7 @@
                             <h5 class="text-2xl font-bold">Email</h5>
                         </div>
 
-                        <p class="pl-11 font-medium">Email : {{ env('MAIL_FROM_ADDRESS') }}</p>
+                        <p class="pl-11 font-medium">Email : contact@alifyamudatk.com</p>
                     </div>
                     <div class="mb-4">
                         <div class="flex items-center gap-2 mb-2">

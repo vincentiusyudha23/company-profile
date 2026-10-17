@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @push('seo')
-    <x-seo description="Starting from our awareness to support the operations of the oil and gas, geothermal, power energy and development industries."/>
+    <x-seo
+        description="Starting from our awareness to support the operations of the oil and gas, geothermal, power energy and development industries." />
 @endpush
 
 @section('title', 'Home')
@@ -157,15 +158,13 @@
                     <div class="swiper-slide">
                         <div class="flex h-32 w-full items-center justify-center p-3">
                             <img class="max-h-full max-w-full object-contain"
-                                src="{{ asset('assets/img/client/PERTAMINA-EP.webp') }}" alt="drilling" />
-
+                                src="{{ asset('assets/img/client/PT-Freeport-Indonesia.png') }}" alt="drilling" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="flex h-32 w-full items-center justify-center p-3">
                             <img class="max-h-full max-w-full object-contain"
-                                src="{{ asset('assets/img/client/PERTAMINA-SAMTAN-GAS.webp') }}" alt="drilling" />
-
+                                src="{{ asset('assets/img/client/intertek.webp') }}" alt="drilling" />
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -254,7 +253,7 @@
 
         <div class="px-4 sm:px-10 lg:px-35 mt-20">
             <h5 class="text-[1.25rem] font-medium">Projects Scope</h5>
-            
+
             <div class="flex justify-between items-center flex-wrap">
                 <h2 class="text-[2.5rem] font-bold">Our Latest Works</h2>
                 <a href="{{ url('/products') }}" class="px-5 font-medium py-2 bg-amber-500">VIEW PROJECTS</a>
@@ -265,7 +264,8 @@
                     @for ($i = 1; $i <= 8; $i++)
                         <div class="swiper-slide">
                             <div class="max-w-[224px] h-auto flex items-center justify-center">
-                                <img class="max-h-full max-w-full object-contain" src="{{ asset('assets/img/project/project0' . $i . '.webp') }}">
+                                <img class="max-h-full max-w-full object-contain"
+                                    src="{{ asset('assets/img/project/project0' . $i . '.webp') }}">
                             </div>
                         </div>
                     @endfor
